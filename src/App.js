@@ -1,7 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
 
-function App() {
+function App () {
+  const a = 'asdfasf'
+
+  const b = 'fafsefs'
+
+  const c = 'asasfdafe'
+
+  const d = 'asdfasf'
+
+  console.log(a, b, c)
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +29,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
