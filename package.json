@@ -16,13 +16,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --fix"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "lint": "eslint . --fix",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -42,6 +37,11 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0"
+    "eslint-plugin-react": "^7.24.0",
+    "husky": ">=6",
+    "lint-staged": ">=10"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
   }
 }

@@ -2,15 +2,22 @@ import logo from './logo.svg'
 import './App.css'
 
 function App () {
-  const a = 'asdfasf'
 
-  const b = 'fafsefs'
+  const fun = () => {
+    const num = 3
+    switch (num) {
+    case 1: {
+      console.log('its 1')
+      break
+    }
+    case 2: {
+      console.log('asdf')
+    }
+    }
+  }
 
-  const c = 'asasfdafe'
-
-  const d = 'asdfasf'
-
-  console.log(a, b, c)
+  const e = 'asdf'
+  console.log(e, fun)
 
   return (
     <div className="App">

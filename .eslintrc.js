@@ -26,6 +26,16 @@ module.exports = {
     'react/react-in-jsx-scope': RULES.OFF,
     semi: [RULES.WARN, 'never'],
     quotes: [RULES.WARN, 'single'],
-    indent: [RULES.WARN, 2]
+    indent: [RULES.WARN, 2],
+    'no-unused-vars': [
+      RULES.WARN,
+      { vars: 'all' }
+    ],
+    'padding-line-between-statements': [
+      RULES.OFF
+    ],
+    'padded-blocks': [
+      RULES.OFF
+    ]
   }
 }
